@@ -1,0 +1,18 @@
+{
+  "name": "new-project",
+  "version": "1.0.0",
+  "description": "Proyecto vacío destinado a pruebas y compilación casual de codigo javascript para node compilando ES6 con babel ",
+  "main": "index.js",
+  "author": "bruno sendras",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist --source-maps --watch",
+    "clean": "rm -rf dist"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5"
+  }
+}
